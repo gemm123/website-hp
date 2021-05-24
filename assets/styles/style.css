@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.plot {
+    color: #e60000;
+}
+
+.seri {
+    color: #008000;
+}
+
+.penulis {
+    color: #e6e600;
+}
+
+.kesuksesan {
+    color: #0066ff;
+}
+
+footer {
+    padding: 12px;
+    color: white;
+    background-color: #39004d;
+    text-align: center;
+    font-weight: bold;
+}
+
+#pembuka p::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.paragraf {
+    text-indent: 2em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    font-size: 15px;
+    padding: 20px;
+    background-color: #6600cc;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #000033;
+    padding: 1px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    
+}
+
+#penulis figure {
+    float: left;
+    width: 20%;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    padding-left: 20px;
+    float: right;
+    width: 25%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
+
+aside a:hover {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#pembuka figure { 
+    text-align: center;
+}
+
+header {
+    display: inline;
+}
+
+#plot figure {
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: #39004d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #000033;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000033;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {background-color: #39004d;}
+  
+.show {display: block;}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    #penulis figure {
+        width: auto;
+    }
+
+    #pembuka img {
+        width: 100%;
+    }
+    
+    header {
+        max-width: 200px;
+    }
+}
